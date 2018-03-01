@@ -5,15 +5,160 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.col-md-5.header-logo {
+    width: 35%;
+    padding: 0;
+    float: left;
+}
+
+.col-md-7.header-m {
+    width: 62%;
+    float: right;
+}
+
+.header-menu li {
+    padding: 18px;
+}
+
+.blog-img-bg-00 {
+    height: 345px;
+}
+
+.blog-img-bg-5 {
+    height: 470px;
+}
+
+.blog-img-bg-6 {
+    height: 470px;
+}
+
+.col-md-5.col-md-offset-1.text-right {
+    margin-top: -20px;
+}
  
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+
+
+.header-area {
+    padding-top: 0;
+}
+
+ a.treger-menu {
+   display: block;
+   padding-left: 40px;
+    margin-top: 10px;
+    float: right;
+} 
+
+.header-menu ul {
+    display: none;
+}
+
+.col-md-5.header-logo {
+    width: 55%;
+    margin: 0;
+    padding-left: 10px;
+    float: left;
+}
+
+input[type="email"] {
+	width:  100%;
+	max-width:  250px;
+	font-size:  12px;
+	letter-spacing:  0;
+}
+
+section.sing-up .row {
+    padding: 15px;
+}
+
+form a {
+    position:  absolute;
+    margin-left:  130px;
+    margin-top: -11px;
+}
+
+.blog-img-bg-00 {
+    height: 200px;
+    margin-top: 25px;
+}
+
+.blog-img-bg-00 {
+    height: 200px;
+    margin-top:  25px;
+}
+
+h3.blog-heding {
+    font-size:  20px;
+}
+
+p.blog-pra {
+    line-height: 1;
+    font-size:  13px;
+    margin-bottom:  25px;
+}
+
+a.load-more {
+    font-size:  14px;
+}
+
+.blog-img-bg-1 {
+    height: 180px;
+}
+
+.blog-img-bg-2 {
+    height: 180px;
+}
+
+.blog-img-bg-3 {
+    height: 180px;
+}
+
+.blog-img-bg-4 {
+    height: 180px;
+}
+
+.blog-img-bg-5 {
+    height: 180px;
+}
+
+.blog-img-bg-6 {
+    height: 180px;
+}
+
+a.lifestyle-bt {
+    margin-left: 30%;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.col-md-5.col-md-offset-1 {
+    float:  left;
+}
+
+.footer-menu li {
+    padding:  20px 5px 0px 0px;
+}
+
+.footer-menu li a {
+    font-size:  14px;
+}
+
+.col-md-5.col-md-offset-1.text-right {
+    padding-left: 35px;
+}
     
 }
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+a.treger-menu {
+   display: block;
+} 
 
 }
